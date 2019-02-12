@@ -4,7 +4,7 @@ let mongoose = require('mongoose');
 let db = require("../models"); 
 
 mongoose.Promise = Promise; 
-mongoose.connect("mongodb://heroku_fhqsxlv6:RetroBackwards3@ds259154.mlab.com:59154/heroku_fhqsxlv6", { 
+mongoose.connect("mongodb://localhost:27017", { 
   useMongoClient: true
 });
 
